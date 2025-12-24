@@ -25,10 +25,10 @@ jobs:
 
       - name: Run preprocessing script
         run: |
-          python preprocessing/automate_Herrens.py
+          python preprocessing/automate_Herrens Dwi S.py
 
       - name: Upload preprocessed dataset
         uses: actions/upload-artifact@v4
         with:
           name: telco-preprocessed-dataset
-          path: preprocessing/namadataset_preprocessing/telco_clean.csv
+          path: preprocessing/data_clean/telco_clean.csv
