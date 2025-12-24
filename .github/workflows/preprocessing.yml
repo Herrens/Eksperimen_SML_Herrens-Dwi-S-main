@@ -25,7 +25,7 @@ jobs:
 
       - name: Run preprocessing script
         run: |
-          python preprocessing/automate_Herrens Dwi S.py
+          python preprocessing/automate_Herrens-Dwi-S.py
 
       - name: Upload preprocessed dataset
         uses: actions/upload-artifact@v4
