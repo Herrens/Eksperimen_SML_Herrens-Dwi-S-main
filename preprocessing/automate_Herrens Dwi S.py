@@ -35,6 +35,6 @@ def preprocess(input_path, output_path):
 
 if __name__ == "__main__":
     preprocess(
-        "/WA_Fn-UseC_-Telco-Customer-Churn.csv",
+        "telco_raw/WA_Fn-UseC_-Telco-Customer-Churn.csv",
         "preprocessing/data_clean/telco_clean.csv"
     )
